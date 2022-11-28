@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <script src="/assets/js/app.js" defer></script>
+    <title>Marcio Paranhos</title>
+</head>
+
+<body>
+
+    <header id="header">
+        <nav id="nav" class="navbar-container">
+            <a href="/">
+                <img class="img-logo" src="./assets/img/MARCIO PARANHOS.gif" alt="Logo">
+            </a>
+            <h1 class="function-name"><span>Back-End</span> Developer</h1>
+            <button id="btn-mobile">
+                <span id="hamburguer"></span>
+            </button>
+            <div class="btns-menu">
+                <a class="nav-btn" href="#whoAmI">Quem sou</a>
+                <a class="nav-btn" href="#whatDoIDo">Minhas Skills</a>
+                <a class="nav-btn" href="#projects">Portifolio</a>
+                <a class="nav-btn" download="Curriculo Marcio Paranhos"
+                    href="./assets/files/Curriculo Marcio Paranhos.pdf">Curriculo<img class="download-icon"
+                        src="./assets/img/download.svg" alt=""></a>
+                <a class="nav-btn" href="#contact">Contato</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="whoAmI">
+        <div class="container">
+            <div class="left">
+                <h2>Quem sou?</h2>
+                <h1>Marcio Vinicius de Borba Paranhos</h1>
+                <p>Atualmente estou cursando o 6º semestre de Sistemas de
+                    Informação.<br>Me identifico muito com o back-end, Tenho priorizado meu tempo para aprimorar
+                    os meus conhecimentos em front-end, Me considero autodidata e muito aplicado nos estudos,
+                    oque me leva a estar em constante desenvolvimento de minhas habilidades interpessoais e técnicas.
+                </p>
+                <div class="social-media">
+                    <div class="tel-contact">
+                        <img class="social-media-icon" src="./assets/img/whatsapp.png" alt="" srcset="">
+                        <P>71 9 8789-8846</P>
+                    </div>
+                    <div class="social-media-icons">
+                        <a target="_blank" title="GitHub" href="https://github.com/MarcioParanhos">
+                            <img class="social-media-icon" src="./assets/img/github.png" alt="">
+                        </a>
+                        <a target="_blank" title="Linkedin"
+                            href="https://www.linkedin.com/in/marcio-paranhos-080106218/">
+                            <img class="social-media-icon" src="./assets/img/linkedin.png" alt="">
+                        </a>
+                        <a target="_blank" title="Linkedin" href="#">
+                            <img class="social-media-icon" src="./assets/img/instagram.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <img class="photograph" src="./assets/img/newfoto.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="whatDoIDo">
+        <h2>Minhas Skills</h2>
+        <div class="whatDoIDo-container">
+            <div class="card" onclick="this.classList.toggle('expanded')">
+                <img class="whatDoIDo-img" src="./assets/img/react.png" alt="">
+                <div class="text1">
+                    <div class="text-content">
+                        <h1 class="title">React</h1>
+                        <div class="body-text">
+                            <p>React Route</p>
+                            <p>Hooks</p>
+                        </div>
+                    </div>
+                </div>
+                <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30">
+                    <path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5" />
+                </svg>
+            </div>
+            <div class="card" onclick="this.classList.toggle('expanded')">
+                <img class="whatDoIDo-img" src="./assets/img/js.png" alt="">
+                <div class="text1">
+                    <div class="text-content">
+                        <h1 class="title">JavaScript</h1>
+                        <p>Manipulação de DOM</p>
+                        <p>Node JS</p>
+                        <p>Rotas com Express</p>
+                    </div>
+                </div>
+                <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30">
+                    <path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5" />
+                </svg>
+            </div>
+            <div class="card" onclick="this.classList.toggle('expanded')">
+                <img class="whatDoIDo-img" src="./assets/img/laravel.png" alt="">
+                <div class="text1">
+                    <div class="text-content">
+                        <h1 class="title">Laravel</h1>
+                        <p>Conhecimento em MVC</p>
+                        <p>Conhecimento em SGBD</p>
+                    </div>
+                </div>
+                <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30">
+                    <path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5" />
+                </svg>
+            </div>
+            <div class="card" onclick="this.classList.toggle('expanded')">
+                <img class="whatDoIDo-img" src="./assets/img/php.png" alt="">
+                <div class="text1">
+                    <div class="text-content">
+                        <h1 class="title">PHP</h1>
+                        <p>APIs</p>
+                        <p>Design Patterns (DAO)</p>
+                        <p>Conhecimento em MVC</p>
+                    </div>
+                </div>
+                <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30">
+                    <path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5" />
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <section id="story">
+        <div class="story-container">
+            <h2>O porque eu escolhi a area de programação WEB?</h2>
+            <div class="story-text">
+                <p>Sempre fui apaixonado pela área de tecnologia, Desde pequeno sempre que eu via um sistema
+                    funcionando eu ficava me perguntando quais as tecnologias foram usadas naquela aplicação, Cresci e
+                    acabei indo trabalhar em outra área "RH" mas nunca desisti do meu sonho em trabalhar na área de
+                    tecnologia.<br>
+                    Foi quando decidi iniciar a faculdade de Sistemas de Informação, e na faculdade tive contato com
+                    a disciplina de TPW ( Técnincas de programação WEB ), nesse contato eu descobri um mundo incrível
+                    o qual despertei extremo interesse no qual crescia cada vez mais, então resolvi focar meus estudos
+                    na linguagem "PHP" essa qual obtive
+                    contato nessa disciplina por admirar muito o funcionamento de uma aplicação como CRUDS... e com isso
+                    comecei a sentir dificuldades em montar um layout ao longo do meu aprendizado de alguma aplicação
+                    com PHP por ter visto de forma rápida a parte Front-end na disciplina.<br>
+                    Hoje estou me aventurando também na parte Front-end e adquirindo mais conhecimento a cada dia, e
+                    aguardando a minha primeira vaga na área de programação WEB.
+                </p>
+            </div>
+            <div class="quote">
+                <h2>“A tecnologia move o mundo.” </h2>
+                <p>Steve Jobs, inventor e fundador da Apple.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects ">
+        <h2 class="title-projects">Projetos Pessoais</h2>
+        <div class="projects-category">
+            <h3>Aplicações</h3>
+            <img src="./assets/img/computador-portatil.svg" alt="icone portifolio">
+        </div>
+        <div class="projects-container swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="card-project swiper-slide">
+                    <h3>CPC - Controle de Programação</h3>
+                    <img class="img-card-project" src="./assets/img/CPC.png" alt="Card img">
+                    <p>Em desenvolvimento</p>
+                    <div class="tecnology-used">
+                        <h3>Tecnologias usadas</h3>
+                        <div class="tecnology-used-img">
+                            <img title="BOOTSTRAP" src="./assets/img/bootstrap-logo-3C30FB2A16-seeklogo.com.png" alt="">
+                            <img title="PHP" src="./assets/img/php.png" alt="">
+                            <img title="JavaScript" src="./assets/img/js.png" alt="">
+                        </div>
+                    </div>
+                    <div class="btn-links">
+                        <div class="link">
+                            <a target="_blank"
+                                href="https://github.com/MarcioParanhos/CPC---Controle-de-programa--o">Repositório
+                            </a>
+                        </div>
+                        <div class="link">
+                            <a target="_blank"
+                                href="https://www.loom.com/share/3e13a5e8b1954c0c873cecd91ffc9fe1">Visualizar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-project swiper-slide">
+                    <h3>Education For Me</h3>
+                    <img class="img-card-project" src="./assets/img/educationforme.png" alt="Card img">
+                    <p>Em desenvolvimento</p>
+                    <div class="tecnology-used">
+                        <h3>Tecnologias usadas</h3>
+                        <div class="tecnology-used-img">
+                            <img title="React" src="./assets/img/react.png" alt="">
+                            <img title="JavaScript" src="./assets/img/js.png" alt="">
+                            <img title="CSS" src="./assets/img/css-3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="btn-links">
+                        <div class="link">
+                            <a target="_blank" href="https://github.com/MarcioParanhos/Education-for-me">Repositório</a>
+                        </div>
+                        <div class="link">
+                            <a target="_blank"
+                                href="https://educationforme-17sjrc23g-marcioparanhos.vercel.app/">Visualizar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-project swiper-slide">
+                    <h3>Quiz do Programador</h3>
+                    <img class="img-card-project" src="./assets/img/Sem título.png" alt="Card img">
+                    <p>Em atualização</p>
+                    <div class="tecnology-used">
+                        <h3>Tecnologias usadas</h3>
+                        <div class="tecnology-used-img">
+                            <img title="JavaScript" src="./assets/img/js.png" alt="">
+                            <img title="HTML5" src="./assets/img/icon-javascript.png" alt="">
+                            <img title="CSS" src="./assets/img/css-3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="btn-links">
+                        <div class="link">
+                            <a target="_blank"
+                                href="https://github.com/MarcioParanhos/Quizz-com-vanilla-JS.git">Repositório</a>
+                        </div>
+                        <div class="link">
+                            <a target="_blank"
+                                href="https://marcioparanhos.github.io/Quizz-com-vanilla-JS/">Visualizar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-project swiper-slide">
+                    <h3>Optics System</h3>
+                    <img class="img-card-project" src="./assets/img/OpticsSystem.jpeg" alt="Card img">
+                    <p>Em desenvolvimento</p>
+                    <div class="tecnology-used">
+                        <h3>Tecnologias usadas</h3>
+                        <div class="tecnology-used-img">
+                            <img title="Laravel" src="./assets/img/laravel.png" alt="">
+                            <img title="PHP" src="./assets/img/php.png" alt="">
+                            <img title="JavaScript" src="./assets/img/js.png" alt="">
+                        </div>
+                    </div>
+                    <div class="btn-links">
+                        <div class="link">
+                            <a target="_blank"
+                                href="https://github.com/MarcioParanhos/Optics-System.git">Repositório</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="projects-category">
+            <h3>LandingPages/Sites</h3>
+            <img src="./assets/img/computador.svg" alt="icone portifolio">
+        </div>
+        <div class="projects-container swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="card-project swiper-slide">
+                    <h3>Site Moderno - Responsivo</h3>
+                    <img class="img-card-project" src="./assets/img/siteModerno.jpeg" alt="Card img">
+                    <p>Finalizado</p>
+                    <div class="tecnology-used">
+                        <h3>Tecnologias usadas</h3>
+                        <div class="tecnology-used-img">
+                            <img title="HTML5" src="./assets/img/icon-javascript.png" alt="">
+                            <img title="CSS" src="./assets/img/css-3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="btn-links">
+                        <div class="link">
+                            <a target="_blank" href="https://github.com/MarcioParanhos/Site-moderno.git">Repositório</a>
+                        </div>
+                        <div class="link">
+                            <a target="_blank" href="https://marcioparanhos.github.io/Site-moderno/">Visualizar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-project swiper-slide">
+                    <h3>CMC Marketing Digital</h3>
+                    <img class="img-card-project" src="./assets/img/CMC.png" alt="Card img">
+                    <p>Em desenvolvimento</p>
+                    <div class="tecnology-used">
+                        <h3>Tecnologias usadas</h3>
+                        <div class="tecnology-used-img">
+                            <img title="HTML5" src="./assets/img/icon-javascript.png" alt="">
+                            <img title="CSS" src="./assets/img/css-3.png" alt="">
+                            <img title="JavaScript" src="./assets/img/js.png" alt="">
+                        </div>
+                    </div>
+                    <div class="btn-links">
+                        <div class="link">
+                            <a target="_blank"
+                                href="https://github.com/MarcioParanhos/Site-Marketing-Digital">Repositório</a>
+                        </div>
+                        <div class="link">
+                            <a target="_blank"
+                                href="https://marcioparanhos.github.io/Site-Marketing-Digital/">Visualizar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-project swiper-slide">
+                    <h3></h3>
+                    <img class="img-card-project" src="./assets/img/embreve.jpg" alt="Card img">
+                    <!-- <p>EM BREVE</p> -->
+                    <!-- <div class="tecnology-used">
+                        <h3>Tecnologias usadas</h3>
+                        <div class="tecnology-used-img">
+                            <img title="Laravel" src="./assets/img/laravel.png" alt="">
+                            <img title="PHP" src="./assets/img/php.png" alt="">
+                            <img title="JavaScript" src="./assets/img/js.png" alt="">
+                        </div>
+                    </div> -->
+                    <!-- <div class="btn-links">
+                        <div class="link">
+                            <a target="_blank"
+                                href="https://github.com/MarcioParanhos/Optics-System.git">Repositório</a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h5>Desenvolvido por </h5><a target="_blank" href="https://www.linkedin.com/in/marcio-paranhos-080106218/">
+            Marcio Paranhos</a>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        
+
+    </script>
+</body>
+
+</html>
